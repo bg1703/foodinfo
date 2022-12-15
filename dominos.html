@@ -1,0 +1,79 @@
+<html>
+<head>
+<script language=javascript>
+function bhagesh()
+{
+var a,b,c,d,e;
+a=document.f1.t1.value;
+b=document.f1.t2.value;
+c=document.f1.s1.value;
+d=document.f1.c1.checked;
+e=document.f1.c2.checked;
+f=document.f1.c3.checked;
+if ((d=="c1[s].selected")&&(e=="c2[h].selected")&&(f=="c3[1].selected"));
+{
+document.write("dear "+a+", you have ordered a "+c+" "+"in square shape"+" pizza with cheese, tomatoes, and ham. It will be delivered in  a cardbox to the following address: "+b);
+}
+elseif ((d=="c1[s].selected")&&(e=="c2[h].selected")&&(f=="c3[2].selected"));
+{
+document.write("dear "+a+", you have ordered a "+c+" "+"in square shape"+" pizza with cheese, tomatoes, and ham. It will be delivered in a Insuled box to the following address: "+b);
+}
+elseif ((d=="c1[s].selected")&&(e=="c2[p].selected")&&(f=="c3[1].selected"));
+{
+document.write("Dear "+a+", you have ordered a "+c+" "+"in square shape"+" pizza with cheese, tomatoes, and ham. It will be delivered in a cardbox to the following address: "+b);
+}
+if ((d=="c1[s].selected")&&(e=="c2[p].selected")&&(f=="c3[2].selected"));
+{
+document.write("Dear "+a+", you have ordered a "+" "+c+" "+"in square shape"+" pizza with cheese, tomatoes, and ham. It will be delivered in a Insuled box to the following address: "+b);
+}
+elseif ((d=="c1[t].selected")&&(e=="c2[h].selected")&&(f=="c3[1].selected"));
+{
+document.write("Dear "+a+", you have ordered a "+" "+c+" "+"in triangle shape"+" pizza with cheese, tomatoes, and pepper. It will be delivered in a cardbox to the following address: "+b);
+}
+elseif ((d=="c1[t].selected")&&(e=="c2[h].selected")&&(f=="c3[2].selected"));
+{
+document.write("Dear "+a+", you have ordered a "+" "+c+" "+"in triangle shape"+" pizza with cheese, tomatoes, and pepper. It will be delivered in a Insuled box to the following address: "+b);
+}
+elseif ((d=="c1[t].selected")&&(e=="c2[p].selected")&&(f=="c3[1].selected"));
+{
+document.write("Dear "+a+", you have ordered a "+" "+c+" "+"in triangle shape"+" pizza with cheese, tomatoes, and pepper. It will be delivered in a cardbox to the following address: "+b);
+}
+if ((d=="c1[t].selected")&&(e=="c2[p].selected")&&(f=="c3[2].selected"));
+{
+document.write("Dear "+a+", you have ordered a "+" "+c+" "+"in triangle shape"+" pizza with cheese, tomatoes, and pepper. It will be delivered in a Insuled box to the following address: "+b);
+}
+
+}
+function hi()
+{
+alert("welcome to dominos")
+}
+</script>
+</head>
+<body onload=hi()>
+<center><h1><u><i><font size=7>DOMINOSE</font></i></u></h1></center>
+<br>
+<hr>
+<form name=f1>
+Name:<input type=text name=t1>
+Address:<input type=text name=t2>
+Phone No.:<input type=text name=t3><br><br>
+Pizza size:
+<select name=s1>
+<option value=small>small</option>
+<option value=medium>medium</option>
+<option value=large>large</option>
+</select><br><br>
+Shape:<br>
+<input type=radio name="c1" value="s">Square
+<input type=radio name="c1 value="t">Triangle<br><br>
+Extra topping:<br>
+<input type=radio name="c2" value="h">Ham
+<input type=radio name="c2" value="p">Pepper<br><br>
+Packaging:<br>
+<input type=radio name="c3" value="1">Cardbox
+<input type=radio name="c3" value="2">Insuled box<br><br>
+<input type=button value="Click" onclick=bhagesh()>
+</form>
+</body>
+</html>

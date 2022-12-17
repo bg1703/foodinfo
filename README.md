@@ -1,5 +1,5 @@
 
-# **Title: Food**
+# **Title: Food Facts**
 
 ## **1. Description**
 Food is one of the most basic needs for all human beings, apart from clothes and shelter. It is necessary to give us the energy to function and maintain the bodily process that keeps us alive. To stay healthy, eating various foods that provide essential nutrition for the body is crucial.
